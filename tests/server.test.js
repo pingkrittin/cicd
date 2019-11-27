@@ -11,7 +11,8 @@ describe("GET /", () => {
             .get('/')
             .end((err, res) => {
                 res.should.have.status(200);
-                res.text.should.contain('Hello PinnPingHome');
+                res.text.should.contain('Hello marketplace!!');
+
                 done();
             });
     });
